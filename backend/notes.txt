@@ -1,0 +1,9 @@
+To start the server: npx nodemon server.js
+To store the data to database: node seeder/seeder
+
+mongoDB
+username: mongo_user
+password: GRpZWBGH9foqEUYl
+
+
+HTTP Error codes: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
