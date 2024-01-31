@@ -45,7 +45,7 @@ const LoginPage = () => {
               <Form.Check
                 name="doNotLogout"
                 type="checkbox"
-                label="Do not logout"
+                label="Remember Me"
               />
             </Form.Group>
 
