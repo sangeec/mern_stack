@@ -1,0 +1,20 @@
+To push your new project into git repository:
+
+1. Create a new repository in the github page
+2. In the VS Code, in your project folder terminal: git init
+3. git add -A [-A will add all the files]
+4. git commit -m "YOUR_COMMIT_MESSAGE"
+5. git branch -M main (creates a main branch)
+6. git remote add origin YOUR_GIT_REPO_URL
+7. git push -u origin main
+
+
+
+To push the modified project into the repository:
+
+1. git status (will list all the files to be pushed)
+2. git add -A
+3. git commit -m "YOUR_COMMIT_MESSAGE"
+4. git push origin main
+5. After pushing the code, git status should display the message "Your branch is upto date with 'origin/main'
+		
