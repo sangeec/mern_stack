@@ -89,4 +89,3 @@ const UsersPageComponent = ({ fetchUsers, deleteUser }) => {
 };
 
 export default UsersPageComponent;
-

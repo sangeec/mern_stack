@@ -12,4 +12,3 @@ const AdminOrdersPage = () => {
 };
 
 export default AdminOrdersPage;
-

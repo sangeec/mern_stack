@@ -174,4 +174,3 @@ const RegisterPageComponent = ({
 };
 
 export default RegisterPageComponent;
-

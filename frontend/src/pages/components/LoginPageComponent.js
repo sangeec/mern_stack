@@ -32,8 +32,8 @@ const LoginPageComponent = ({ loginUserApiRequest,reduxDispatch, setReduxUserSta
                 reduxDispatch(setReduxUserState(res.userLoggedIn));
             }
 
-            if (res.success === "user logged in" && !res.userLoggedIn.isAdmin) window.location.href = '/user'
-            else window.location.href = '/admin/orders'
+            if (res.success === "user logged in" && !res.userLoggedIn.isAdmin) window.location.assign('/user') 
+            else window.location.assign('/admin/orders')
 
         })
         .catch((er) =>
@@ -115,4 +115,3 @@ const LoginPageComponent = ({ loginUserApiRequest,reduxDispatch, setReduxUserSta
 };
 
 export default LoginPageComponent;
-

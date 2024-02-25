@@ -34,4 +34,3 @@ const ProtectedRoutesComponent = ({ admin }) => {
 };
 
 export default ProtectedRoutesComponent;
-

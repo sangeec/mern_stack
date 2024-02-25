@@ -194,4 +194,3 @@ const UserProfilePageComponent = ({ updateUserApiRequest, fetchUser, userInfoFro
 };
 
 export default UserProfilePageComponent;
-
